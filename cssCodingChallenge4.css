@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    text-align: center;
+}
+table, tr, th, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    width: 95vw;
+    align-content: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+td{
+    transition: scale 2s;
+}
+td:hover{
+    transform: scale(1.2);
+    background-color: aquamarine;
+}
